@@ -1,0 +1,59 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    }
+
+body{
+    background-color: black;
+    color: white;
+
+}
+    
+.headermenu{
+
+    max-width: 100%;    
+    margin: 0;
+    padding:0;
+    
+}
+
+.headermenu #icone{
+    
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url("/assets/magiclogo.png") ;
+    
+    padding-left: 10px;
+}
+
+
+.headermenu a{
+    color:white;
+    text-decoration:none;
+}
+
+ul{
+    
+    overflow: hidden;
+     background-color: black;
+}
+
+
+li{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    display: block;
+    float:left;
+    color: aliceblue;
+}
+
+li:hover{
+    background-color:gray;
+    
+}
+
